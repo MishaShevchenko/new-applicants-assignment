@@ -6,11 +6,11 @@
         <link rel="stylesheet" href="./styles/style.css" />
         <title>Calculator</title>
     </head>
+
     <body>
         <div class="container">
-            <input type="text" class="display" />
-            <!-- Add your classes or ids -->
-            <div class="buttons">
+            <input type="text" class="display" id="calculator-display" />
+            <div class="buttons" id="calculator-buttons">
                 <button>AC</button>
                 <button>DEL</button>
                 <button>%</button>
@@ -34,7 +34,10 @@
                 <button>0</button>
                 <button>00</button>
                 <button>.</button>
-                <button></button>
+                <button>=</button>
+                <button class="theme-toggle" id="btn-theme-toggle">
+                    Toggle Theme
+                </button>
             </div>
         </div>
         <script src="./src/main.js"></script>
